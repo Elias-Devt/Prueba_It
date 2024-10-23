@@ -1,0 +1,4 @@
+-meter la carpeta en htdocs 
+-crear la base de datos con el el archivo sql incluido
+-si es necesario cambiar el nombre de usuario  y password para conectarse a su mysql
+-ir a la direccion http://localhost/Prueba/ 

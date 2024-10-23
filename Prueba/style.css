@@ -1,0 +1,78 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; 
+    color: #333;
+    padding: 20px;
+}
+
+/* Títulos */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #050505; 
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Estilo del formulario */
+input[type="text"],
+input[type="email"] {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dee2e6; 
+    padding: 12px; 
+    text-align: left;
+}
+
+th {
+    background-color: #007bff; 
+    color: white; 
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Modal */
+.modal-header {
+    background-color: #007bff; 
+    color: white; 
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 24px; 
+    }
+
+    .container {
+        padding: 15px; 
+    }
+}
